@@ -13,7 +13,7 @@ background-color: #111;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 60px; 
+    padding: 15px 60px; 
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
     z-index: 1000;
     transition: padding 0.3s ease;
@@ -28,13 +28,28 @@ background-color: #111;
   color: #fff;
   font-size: 30px;
   font-weight: bold;
+  text-decoration: none; 
+  transition: font-size 0.3s ease; 
+  font-family: Fontstyle;
 }
 
+.logo:hover {
+  cursor: pointer;
+  color: #ffffff;
+}
+
+
 .nav-links {
+  position: absolute;       /* ลอยจาก flow ปกติ */
+  left: 50%;                /* ดันไปที่กึ่งกลางหน้าจอ */
+  transform: translateX(-50%); /* ดึงกลับมา 50% ของความกว้างตัวเอง เพื่อให้กลางเป๊ะ */
+  
+  /* ค่าเดิมของคุณ */
   list-style: none;
   display: flex;
   gap: 35px;
- 
+  padding: 0;               /* แนะนำให้ใส่เพื่อล้างค่า default ของ ul */
+  margin: 0;                /* แนะนำให้ใส่เพื่อล้างค่า default */
 }
 
 .navbar a {

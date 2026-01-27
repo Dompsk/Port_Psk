@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <ul className="footer-links">
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#Contact"></a></li>
         </ul>
 
         <p className="footer-copy">

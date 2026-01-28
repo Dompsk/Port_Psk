@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Project from "./components/Project/Project.jsx";
-import DescProject from "./components/Project/DescProject.jsx"; // 2. นำเข้า DescProject
+import DescProject from "./components/Project/DescProject.jsx"; // 
+import Footer from "./components/footer/Footer.jsx";
 
 const App = () => {
   return (

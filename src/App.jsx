@@ -37,9 +37,6 @@ const App = () => {
         }
       />
 
-      {/* === เส้นทางที่ 2: หน้ารายละเอียดโปรเจกต์ === */}
-      {/* เมื่อเข้า /project/1, /project/2 ฯลฯ ให้แสดงหน้า DescProject */}
-      {/* (หน้า DescProject เราใส่ Navbar/Footer ไว้ในไฟล์นั้นแล้ว จึงไม่ต้องใส่ตรงนี้ซ้ำ) */}
       <Route path="/Project/:id" element={<DescProject />} />
     </Routes>
   );

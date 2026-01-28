@@ -1,7 +1,7 @@
 // src/components/ProjectSection/ProjectSection.jsx
 import React from 'react';
 import { Link } from 'react-router-dom'; // อย่าลืม npm install react-router-dom
-import projectsData from './ProjectsData'; // path ไปยังไฟล์ data
+import ProjectsData from './ProjectsData'; // path ไปยังไฟล์ data
 import './Project.css';
 
 const Project = () => {
@@ -12,7 +12,7 @@ const Project = () => {
         <p className="section-subtitle">Explore my recent work and experiences.</p>
 
         <div className="project-grid">
-          {projectsData.map((project) => (
+          {ProjectsData.map((project) => (
             <Link to={project.link} className="project-card" key={project.id}>
               
               <div className="card-image-wrapper">

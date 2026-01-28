@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Project from "./components/Project/Project.jsx";
-import DescProject from "./components/Project/descProject.jsx"; // 2. นำเข้า DescProject
+import DescProject from "./components/Project/DescProject.jsx"; // 2. นำเข้า DescProject
 
 const App = () => {
   return (

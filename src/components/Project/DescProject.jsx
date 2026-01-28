@@ -1,16 +1,15 @@
-// src/components/Project/descProject.jsx
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar'; // Import Navbar ของคุณ
-import projectsData from './ProjectsData'; // path ไปยังไฟล์ data
-import Footer from '../footer/Footer'; // Import Footer ของคุณ
+import ProjectsData from './ProjectsData'; // path ไปยังไฟล์ data
+import Footer from '../Footer/Footer'; // Import Footer ของคุณ
 import './DescProject.css'; // สร้างไฟล์ CSS สำหรับสไตล์ของหน้ารายละเอียด
 
 
 const DescProject = () => {
   const { id } = useParams(); // รับ id จาก URL (เช่น /project/1)
   // แปลง id เป็นตัวเลขแล้วค้นหาโปรเจกต์
-  const project = projectsData.find((p) => p.id === parseInt(id));
+  const project = ProjectsData.find((p) => p.id === parseInt(id));
 
   // Scroll ไปบนสุดเสมอเมื่อเปิดหน้านี้
   useEffect(() => {

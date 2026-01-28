@@ -1,7 +1,7 @@
 // src/components/ProjectSection/ProjectSection.jsx
 import React from 'react';
 import { Link } from 'react-router-dom'; // อย่าลืม npm install react-router-dom
-import projectsData from './projectsData'; // path ไปยังไฟล์ data
+import projectsData from './ProjectsData'; // path ไปยังไฟล์ data
 import './Project.css';
 
 const Project = () => {

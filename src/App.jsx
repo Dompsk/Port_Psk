@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom"; // 1. เพิ่ม import �
 
 // Components เดิม
 import Navbar from "./components/Navbar/Navbar.jsx";
-import Footer from "./components/footer/Footer.jsx";
+import Footer from "./components/Footer/Footer.jsx";
 import Home from "./components/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Project from "./components/Project/Project.jsx";

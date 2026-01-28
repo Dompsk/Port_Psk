@@ -3,7 +3,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <section id="Home" class="section1">
+    <section id="Home" className="section1">
       <h1>
         Build and collect experiences UX UI Design , Frontend , Backend and Data
         Analytics
@@ -11,11 +11,11 @@ const Home = () => {
 
       <h3>Minimal , User-Friendly Design , Explore my work and experiences.</h3>
 
-      <div class="button-container">
-        <a href="#project" class="project-button">
+      <div className="button-container">
+        <a href="#project" className="project-button">
           View Project
         </a>
-        <a href="#Resume" class="project-button resume-button">
+        <a href="#Resume" className="project-button resume-button">
           Resume
         </a>
       </div>

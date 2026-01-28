@@ -47,7 +47,7 @@ const Education = () => {
               </p>
             </li>
 
-            <li class="timeline-item">
+            <li className="timeline-item">
               <h4 className="h4 timeline-item-title">
                 Kanchanapisek Wittayalai Surat Thani School
               </h4>

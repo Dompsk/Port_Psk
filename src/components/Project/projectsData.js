@@ -1,6 +1,6 @@
 // src/data/projectsData.js
 
-const projectsData = [
+const ProjectsData = [
   {
     id: 1,
     title: "Poolongtai",
@@ -55,4 +55,4 @@ const projectsData = [
   }
 ];
 
-export default projectsData;
+export default ProjectsData;

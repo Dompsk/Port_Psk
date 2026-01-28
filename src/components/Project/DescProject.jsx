@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar'; // Import Navbar ของคุณ
-import projectsData from './projectsData'; // path ไปยังไฟล์ data
+import projectsData from './ProjectsData'; // path ไปยังไฟล์ data
 import Footer from '../footer/Footer'; // Import Footer ของคุณ
 import './DescProject.css'; // สร้างไฟล์ CSS สำหรับสไตล์ของหน้ารายละเอียด
 

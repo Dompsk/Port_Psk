@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar'; // Import Navbar ของคุณ
 import ProjectsData from './ProjectsData'; // path ไปยังไฟล์ data
-import Footer from '../Footer/Footer'; // Import Footer ของคุณ
 import './DescProject.css'; // สร้างไฟล์ CSS สำหรับสไตล์ของหน้ารายละเอียด
 
 
@@ -23,7 +22,7 @@ const DescProject = () => {
         <div style={{ padding: '150px 20px', textAlign: 'center', fontSize: '1.5rem' }}>
           Project not found.
         </div>
-        <Footer />
+        
       </>
     );
   }
@@ -93,7 +92,7 @@ const DescProject = () => {
 
       </div>
 
-      <Footer />
+    
     </>
   );
 };

@@ -1,14 +1,13 @@
-// ไฟล์: src/main.jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import './index.css'
 
-// เพิ่ม basename="/Port_Psk" เข้าไปใน BrowserRouter
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Port_Psk">
+    {/* ใช้ BrowserRouter เปล่าๆ ไม่ต้องมี basename สำหรับ Vercel */}
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
